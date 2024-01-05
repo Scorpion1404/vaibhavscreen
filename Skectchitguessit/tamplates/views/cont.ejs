@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cont.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Island+Moments&family=Oswald&family=Playpen+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+</head>
+<style>
+    .contact {
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 3px;
+    }
+</style>
+
+<body>
+    <%- include('../partials/navbar') %>
+    <div class="vid">
+        <video src="../images/ogbg.mp4" class="vid" autoplay loop></video>
+    </div>
+
+    <div class="contbox">
+        <h1 class="top">Contact Us</h1>
+        <img src="../images/logoweb.jpg" alt="loog" class="clogo">
+        <h1>SKETCH IT!! GUESS IT!!</h1>
+        <p class="underneath">Feel Free to Contact Us !</p>
+
+        <div class="email">
+            <p>Enter your Email</p>
+            <input type="text" placeholder="Enter your email">
+        </div>
+
+        <div class="query">
+            <p>Enter your query</p>
+            <textarea name="Enter query" id="" cols="35" rows="10" placeholder="Enter query"></textarea>
+        </div>
+
+        <button class="submit"><a href="">Submit</a></button>
+    </div>
+
+</body>
+
+</html>

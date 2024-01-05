@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.roombox{
+    width:25vw;
+    height: 30vh;
+    border: 2px solid rgba(255, 255, 255, 0.521) ;
+    margin-top: 20vh;
+    background-color: rgba(255, 255, 255, 0.521);  
+}
+.bbox{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.create{
+    width: 250px;
+    height: 3rem;
+    margin-left: 3vw;
+    margin-top:50px;
+    border: 2px solid rgb(71, 121, 228);
+    font-size: larger;
+}
+#sel{
+    width: 50px;
+    height: 3.2rem;
+    border: 2px solid rgb(71, 121, 228);
+    font-size: larger;
+}
+.create button{
+    width: 250px;
+    height: 3rem;
+    display: block;
+    margin-top:80px;
+    margin-left: 6vw;
+    background-color: rgb(71, 121, 228);
+    border: 2px solid rgb(71, 121, 228);
+    font-size: large;
+    color: white;
+
+}
+
+.create .rbtn:hover{
+    width: 270px;
+    height: 3.5rem;
+  
+    
+    
+}
+
+.create .rbtn a{
+    text-decoration: none;
+    color: white;
+
+}
+.join button{
+    width: 250px;
+    height: 3rem;
+    display: block;
+    margin-top: 30px;
+    margin-left: 6vw;
+    background-color: rgb(71, 121, 228);
+    border: 2px solid rgb(71, 121, 228);
+    font-size: large;
+    color: white;
+
+}
+.join .rbtn:hover{
+    width: 270px;
+    height: 3.5rem;
+   
+    
+    
+}
+
+.join .rbtn  a{
+    text-decoration: none;
+    color: white;
+
+}
+.created{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(71, 121, 228); */
+    margin-top: 30px;
+}
+.created button{
+    width: 250px;
+    height: 3rem;
+  
+    background-color: rgb(71, 121, 228);
+    border: 2px solid rgb(71, 121, 228);
+    font-size: large;
+    color: white;
+}
+
+.created button a {
+    text-decoration: none;
+    color: white;
+
+
+}
+.created button:hover{
+    width: 270px;
+    height: 3.5rem;
+    padding-top: 5px;
+    
+}
+.createe{
+    width: 250px;
+    height: 3rem;
+    margin-left: 4vw;
+    margin-top:50px;
+    border: 2px solid rgb(71, 121, 228);
+    font-size: larger;
+}

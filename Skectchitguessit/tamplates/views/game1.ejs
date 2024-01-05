@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME </title>
+   
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/game1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Island+Moments&family=Oswald&family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    
+</head>
+
+<style>
+    .home{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+   }
+</style>
+
+<body>
+    <%- include('../partials/navbar') %>
+    
+   <div class="vid">
+        <video src="../images/ogbg.mp4" class="vid" autoplay loop></video>
+     </div>
+       
+      <div class="cont3">
+        <div class="pnames"></div>
+        
+        <div class="cnbox">
+            <div class="timer"></div>
+        <!-- <canvas id="drawingCanvas" width="765px" height="500px"></canvas> -->
+        <canvas id="drawingCanvas" width="700px" height="450px"></canvas>
+        <script src="./js/index.js"></script>
+        </div>
+
+        
+        <div class="answers">
+            <div id="message-container"></div>
+            <form id="send-container">
+                <input type="text" id="message-input">
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+
+      </div>
+      
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="./js/game.js"></script>
+    
+     
+
+</body>

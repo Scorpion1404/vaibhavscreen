@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Island+Moments&family=Oswald&family=Playpen+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+</head>
+<style>
+    .contact {
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 3px;
+    }
+</style>
+
+<body>
+    <%- include('../partials/navbar') %>
+    <div class="vid">
+        <video src="./images/ogbg.mp4" class="vid" autoplay loop></video>
+    </div>
+
+    <div class="contbox">
+        <h1 class="top">Register</h1>
+        <img src="./images/logoweb.jpg" alt="loog" class="clogo">
+        <h1>SKETCH IT!! GUESS IT!!</h1>
+        
+       <form class="form" id="form" action="/register" method="post" >
+        <div class="form-control">
+            <label>Username</label><br>
+            <input type="text" placeholder="Enter username" id="username" name="username"><br>
+            <div class="error"></div>
+        </div>
+
+        <div class="form-control">
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter password" id="password" name="password"><br>
+            <div class="error"></div>
+        </div>
+        
+       <button class="sbtn" type="submit" >Register</button>
+   
+
+        </form> 
+
+    
+
+        
+    </div>
+
+     <!-- <script>
+            const form = document.getElementById('form');
+const username = document.getElementById('username');
+const password = document.getElementById('password');
+
+
+form.addEventListener('submit', e =>{
+    e.preventDefault();
+
+    validateInputs();
+
+});
+
+const setError = (element , message) => {
+    const formControl = element.parentElement;
+    const errorDisplay = formControl.querySelector('.error');
+
+    errorDisplay.innerText = message;
+    formControl.classList.add('error');
+    formControl.classList.remove('success');
+
+}
+
+const setSuccess = element =>{
+    const formControl = element.parentElement;
+    const errorDisplay = formControl.querySelector('.error');
+
+    errorDisplay.innerText = '';
+    formControl.classList.add('success');
+    formControl.classList.remove('error');
+
+};
+
+const validateInputs = () =>{
+    const usernameValue = username.value.trim();
+    const passwordValue = password.value.trim();
+
+     if(usernameValue === ''){
+        setError(username,'Username is requiered');
+     }else{
+        setSuccess(username);
+     }
+
+     if(passwordValue === ''){
+        setError(password,'Password is required');
+
+     }else if (passwordValue.length<8){
+        setError(password,'password must be 8 characters');
+     }
+     else{
+        setSuccess(password);
+     }
+
+};
+        </script>  -->
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.opt{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.game{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.171);
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+ 
+}
+.gamee{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.171);
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+   
+}
+/* .game1{
+    width: 300px;
+    height:450px ;
+    
+   
+} */
+.game2{
+    width: 300px;
+    height:450px ;
+    margin-left: 100px;
+}
+
+.game:hover{
+    width: 300px;
+    height: 450px;
+    background-color:rgba(0, 0, 0, 0.429);
+    transition: 2s;
+    margin-left: -30px;
+    margin-top: -10px;
+    .opimg{
+        margin-left: 50px;
+        transition: 2s;
+    }
+    .btn{
+        margin-left: 90px;
+        transition: 2s;
+        width: 120px;
+    }
+    
+ 
+} 
+
+.gamee:hover{
+    width: 300px;
+    height: 450px;
+    background-color:rgba(0, 0, 0, 0.429);
+    transition: 2s;
+    margin-left: 30px;
+    margin-top: -10px;
+    
+    .opimg{
+        margin-left: 50px;
+        transition: 2s;
+    }
+    .btn{
+        margin-left: 90px;
+        transition: 2s;
+        width: 120px;
+    }
+    
+}
+ 
+ 
+button{
+ width: 100px;
+ height: 50px;
+ margin-left: 70px;
+ background-color:rgb(68, 68, 231) ;
+ border: 2px solid rgb(68, 68, 231);
+ border-radius: 50px;
+ font-family: Bitter;
+ margin-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.opimg{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    border-radius:100px;
+    margin-top: 50px;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: Playpen Sans;
+    font-size: larger;
+}
+
+.title:hover{
+    text-align: center;
+}
+.box1{
+    /* border: 2px solid w; */
+    display: flex;
+    margin-left: 4vw;
+}

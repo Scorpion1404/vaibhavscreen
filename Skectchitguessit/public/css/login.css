@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Bitter ;
+}
+.contbox{
+    width: 450px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.443);
+    margin-left: 35vw;
+    margin-top: 10vh;
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 5px;
+   
+    
+    
+}
+h1{
+    text-align: center;
+}
+
+.top{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+    
+.clogo{
+   width: 80px;
+   height: 80px; 
+   border-radius: 80px;
+   margin-top: 10px;
+   margin-left: 180px;
+}
+
+.underneath {
+    font-size: large;
+    text-decoration: underline;
+    margin-left: 110px;
+    
+  
+}
+.email{
+    font-size: large;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.email input{
+    width:90%;
+    height: 2rem;
+}
+
+.email p{
+    margin-top: 30px;
+}
+
+
+.sbtn{
+    font-size: large;
+    margin-left: 180px;
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(71, 71, 236, 0.938);
+    border: 2px solid rgba(71, 71, 236, 0.938);
+    border-radius: 20px;
+
+} 
+
+.sbtn a{
+
+    text-decoration: none;
+    color: white;
+}
+.form-control{
+
+    margin-left: 5.5vw;
+    margin-top: 2rem;
+}
+.form-control input{
+    width: 250px;
+    height: 30px;
+}
+.form-control small{
+    color: red;
+    visibility: hidden;
+
+}
+.form-control.error small{
+    color: red;
+    visibility: visible;
+
+}
+
+.form-control.error input{
+
+    border: 1px solid red ;
+}
+.form-control.success input{
+    border-color: greenyellow;
+}
+
+
+

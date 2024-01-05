@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont3{
+    width: 75vw;
+    height:80vh;
+    /* border: 2px solid white; */
+    margin-left: 30vh;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.pnames{
+    width: 13vw;
+    height:70vh ;
+    border: 2px solid white;
+
+
+}
+.cnbox{
+    width:40vw;
+    height: 70vh;
+    /* border:2px solid white; */
+    margin-left: 10px;
+    
+
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: white;
+    margin-top: 1vh;
+   
+   
+}
+
+
+.answers{
+    width: 14vw;
+    height: 70vh;
+    border:2px solid black;
+    margin-left: 6vw;
+    background-color: rgba(255, 255, 255, 0.584);
+
+}
+
+.timer{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 60px;
+    margin-left: 17vw;
+}
+
+#message-container{
+    width:13vw;
+    height: 67vh;
+    background-color: #ffffffde;
+}
+#message-container div{
+    background-color: white;
+    padding: 5px;
+
+}
+#message-container div:nth-child(2n) {
+    background-color: #FFF;
+}
+
+#message-input{
+    width:10vw;
+    height:2.5vh;
+}
+#send-button{
+    padding: 5px 7px 5px 5px;
+}
